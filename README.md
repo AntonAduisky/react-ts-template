@@ -30,8 +30,7 @@ Template for react app using webpack and typescript.
 -   `yarn lint:fix` or `npm run lint:fix`
 
 If `husky` pre-commit hook willn't work, please run `npx husky-init` command with cli (in project directory)<br /> and
-replace new `.husky/pre-commit` file with our. <br />Also I created `release.yml` file in `.github/workflows/`. This is
-for automation our releases with github bot,<br />so you need to add your script after `yarn build` command.
+replace new `.husky/pre-commit` file with our.
 
 ## Used technologies
 

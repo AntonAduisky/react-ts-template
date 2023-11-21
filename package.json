@@ -22,10 +22,10 @@
     },
     "scripts": {
         "start": "webpack serve --progress --mode development",
-        "clean": "rm -rf ./build",
         "build": "yarn clean && webpack --progress --mode production",
         "lint": "yarn eslint src --ext .js,.ts,.tsx --ignore-pattern '!.*.js' --no-error-on-unmatched-pattern",
-        "lint:fix": "yarn lint --fix"
+        "lint:fix": "yarn lint --fix",
+        "clean": "rm -rf ./build"
     },
     "devDependencies": {
         "@babel/core": "^7.19.1",
