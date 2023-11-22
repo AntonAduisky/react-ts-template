@@ -15,15 +15,14 @@ Template for react app using webpack and typescript.
 -   `git clone`
 -   `yarn install` or `yarn`
 -   `yarn start`
--   open [localhost:3000](http://localhost:3000) in your favorite browser
 
 **Build project**
 
--   `yarn build` or `npm run build`
+-   `yarn build`
 
 **Lint project**
 
--   `yarn lint` or `npm run lint`
+-   `yarn lint`
 
 **Fix autofixable eslint errors**
 
